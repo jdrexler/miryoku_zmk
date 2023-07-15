@@ -10,4 +10,5 @@ jobs:
     with:
       board: '["nrfmicro_13"]'
       shield: '["corne_left","corne_right"]'
+      alphas: '["Colemak"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'

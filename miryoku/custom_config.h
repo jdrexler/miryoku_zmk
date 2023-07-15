@@ -7,12 +7,12 @@ ZMK_UNICODE_PAIR(   de_oe,      N0, N0,  F, N6,    N0, N0,  D, N6)
 ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C)
 ZMK_UNICODE_SINGLE( de_eszett,  N0, N0,  D,  F)
 
-/ {
+{
     combos {
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             bindings = <&kp de_ae>;
         };
     };
