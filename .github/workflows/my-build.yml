@@ -11,5 +11,6 @@ jobs:
       board: '["nrfmicro_13"]'
       shield: '["corne_left","corne_right"]'
       alphas: '["Colemak"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_ZMK_MOUSE=y"]'
-      branches: '["urob/zmk/mouse-3.2"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_MOUSE=y"]'
+      branches: '["zmkfirmware/zmk/main urob/zmk/mouse-3.2"]'
+
