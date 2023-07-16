@@ -14,7 +14,7 @@ ZMK_UNICODE_SINGLE( de_eszett,  N0, N0,  D,  F)
             ae_combo {
             timeout-ms = <50>;
             key-positions = <11 12>;
-            bindings = <&kp U>;
+            bindings = <&kp 11 >;
         };
     };
 };
